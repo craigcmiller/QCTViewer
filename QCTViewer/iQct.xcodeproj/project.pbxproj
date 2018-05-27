@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iQctAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iQctAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iQctViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iQctViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iQctViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iQctViewController.mm */; };
+		440270801048476C00EA7A75 /* QCTMapManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4402707F1048476C00EA7A75 /* QCTMapManager.mm */; };
+		44092CC60FD1CDAD00806270 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44092CC50FD1CDAD00806270 /* AppIcon.png */; };
+		4429D7FC1114F0DF00C625FB /* iQctViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4429D7FB1114F0DF00C625FB /* iQctViewController_iPad.xib */; };
+		442CD07610A0FA3600268A45 /* ChartFileServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442CD07510A0FA3600268A45 /* ChartFileServerViewController.xib */; };
+		442CD07910A0FA5000268A45 /* ChartFileServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CD07810A0FA5000268A45 /* ChartFileServerViewController.m */; };
+		442E919610B8549E00A11C46 /* ChartTiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E919510B8549E00A11C46 /* ChartTiledLayer.m */; };
+		4439F33510A0B7F10029505E /* ChartIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439F33210A0B7F10029505E /* ChartIcon.png */; };
+		4439F3BD10A0F5660029505E /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3A810A0F5660029505E /* AsyncSocket.m */; };
+		4439F3BE10A0F5660029505E /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3AA10A0F5660029505E /* DDData.m */; };
+		4439F3BF10A0F5660029505E /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3AC10A0F5660029505E /* DDNumber.m */; };
+		4439F3C010A0F5660029505E /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3AE10A0F5660029505E /* DDRange.m */; };
+		4439F3C110A0F5660029505E /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B010A0F5660029505E /* HTTPAuthenticationRequest.m */; };
+		4439F3C210A0F5660029505E /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B210A0F5660029505E /* HTTPConnection.m */; };
+		4439F3C310A0F5660029505E /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B410A0F5660029505E /* HTTPResponse.m */; };
+		4439F3C410A0F5660029505E /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B610A0F5660029505E /* HTTPServer.m */; };
+		4439F3C510A0F5660029505E /* iPhoneHTTPServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B810A0F5660029505E /* iPhoneHTTPServerAppDelegate.m */; };
+		4439F3C610A0F5660029505E /* localhostAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3BA10A0F5660029505E /* localhostAddresses.m */; };
+		4439F3C710A0F5660029505E /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3BC10A0F5660029505E /* MyHTTPConnection.m */; };
+		4439F3DA10A0F5B60029505E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4439F3D910A0F5B60029505E /* CFNetwork.framework */; };
+		4441D23D10AF32130046C95D /* TrackListViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4441D23B10AF32130046C95D /* TrackListViewController.mm */; };
+		4441D23E10AF32130046C95D /* TrackListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4441D23C10AF32130046C95D /* TrackListViewController.xib */; };
+		4441D2B510AF4B340046C95D /* Track.png in Resources */ = {isa = PBXBuildFile; fileRef = 4441D2B410AF4B340046C95D /* Track.png */; };
+		445AA7720FCB65BD00944224 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445AA7710FCB65BD00944224 /* MainMenuViewController.xib */; };
+		446711271055A9A300117BC7 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446711261055A9A300117BC7 /* AboutViewController.xib */; };
+		446711301055A9CF00117BC7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4467112F1055A9CF00117BC7 /* AboutViewController.m */; };
+		446ABE0D0FB21B5C00FA0564 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446ABE0C0FB21B5C00FA0564 /* CoreLocation.framework */; };
+		4475191D108D80AC00F3510D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4475191C108D80AC00F3510D /* Reachability.m */; };
+		44751937108D827F00F3510D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44751936108D827F00F3510D /* SystemConfiguration.framework */; };
+		447598E310559F4800284904 /* QCTViewer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 447598E210559F4800284904 /* QCTViewer-Info.plist */; };
+		44792ABA1065460A006C74F7 /* geolocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44792AB91065460A006C74F7 /* geolocation.cpp */; };
+		4479330A1046EEC600F74D19 /* ChartFileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 447933091046EEC600F74D19 /* ChartFileManager.mm */; };
+		447A1EB80FDAA49300FD4C5B /* UnitSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447A1EB70FDAA49300FD4C5B /* UnitSettingsViewController.xib */; };
+		447A1EC00FDAA4B900FD4C5B /* UnitSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447A1EBF0FDAA4B900FD4C5B /* UnitSettingsViewController.m */; };
+		4486194D10C468E40008C7ED /* ItemView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4486194C10C468E40008C7ED /* ItemView.mm */; };
+		4487C1D810F29EEC00F13F9C /* GPXFileViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4487C1D610F29EEC00F13F9C /* GPXFileViewerViewController.m */; };
+		4487C1D910F29EEC00F13F9C /* GPXFileViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4487C1D710F29EEC00F13F9C /* GPXFileViewerViewController.xib */; };
+		44880EF010B5D61B00FE3D44 /* TiledLayerDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44880EEF10B5D61B00FE3D44 /* TiledLayerDelegate.mm */; };
+		448E60BC10A8C9D100F9D606 /* SmallAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 448E60BB10A8C9D100F9D606 /* SmallAppIcon.png */; };
+		448EDEDE106FBDA600051E8A /* qctmmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448EDEDC106FBDA600051E8A /* qctmmap.cpp */; };
+		449A2607111226C800FB7DFA /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44092CC50FD1CDAD00806270 /* AppIcon.png */; };
+		449A260A111226C800FB7DFA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D5DA3710503ADF0096A59B /* Entitlements.plist */; };
+		449A260B111226C800FB7DFA /* QCTViewer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 447598E210559F4800284904 /* QCTViewer-Info.plist */; };
+		449A260D111226C800FB7DFA /* ChartIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439F33210A0B7F10029505E /* ChartIcon.png */; };
+		449A260F111226C800FB7DFA /* SmallAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 448E60BB10A8C9D100F9D606 /* SmallAppIcon.png */; };
+		449A2610111226C800FB7DFA /* ZoomIn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 44E0181810AB537F006967F0 /* ZoomIn.tiff */; };
+		449A2611111226C800FB7DFA /* ZoomOut.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 44E0181A10AB53E9006967F0 /* ZoomOut.tiff */; };
+		449A2612111226C800FB7DFA /* MultiCharts.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0181F10AB5798006967F0 /* MultiCharts.png */; };
+		449A2613111226C800FB7DFA /* MeOnChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0182910AB5918006967F0 /* MeOnChart.png */; };
+		449A2614111226C800FB7DFA /* AddChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0182F10AB59C6006967F0 /* AddChart.png */; };
+		449A2615111226C800FB7DFA /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0183110AB5AC0006967F0 /* Earth.png */; };
+		449A2616111226C800FB7DFA /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F24F1610ADA7F700965B6F /* Settings.png */; };
+		449A2619111226C800FB7DFA /* Track.png in Resources */ = {isa = PBXBuildFile; fileRef = 4441D2B410AF4B340046C95D /* Track.png */; };
+		449A261C111226C800FB7DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		449A261D111226C800FB7DFA /* iQctAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iQctAppDelegate.m */; };
+		449A261E111226C800FB7DFA /* iQctViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iQctViewController.mm */; };
+		449A261F111226C800FB7DFA /* qcttilemgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244120FA795F4002F7490 /* qcttilemgr.cpp */; };
+		449A2620111226C800FB7DFA /* qctpalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244140FA795F4002F7490 /* qctpalette.cpp */; };
+		449A2621111226C800FB7DFA /* georef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244150FA795F4002F7490 /* georef.cpp */; };
+		449A2622111226C800FB7DFA /* qctmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244160FA795F4002F7490 /* qctmap.cpp */; };
+		449A2623111226C800FB7DFA /* QCTView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44B2442B0FA797EA002F7490 /* QCTView.mm */; };
+		449A2624111226C800FB7DFA /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449C07AB0FC867B3005DF2D1 /* MainMenuViewController.m */; };
+		449A2625111226C800FB7DFA /* ChartSetupViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44F2A0AD0FC86D1600F7AB63 /* ChartSetupViewController.mm */; };
+		449A2626111226C800FB7DFA /* UnitSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447A1EBF0FDAA4B900FD4C5B /* UnitSettingsViewController.m */; };
+		449A2627111226C800FB7DFA /* ChartFileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 447933091046EEC600F74D19 /* ChartFileManager.mm */; };
+		449A2628111226C800FB7DFA /* QCTMapManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4402707F1048476C00EA7A75 /* QCTMapManager.mm */; };
+		449A2629111226C800FB7DFA /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4467112F1055A9CF00117BC7 /* AboutViewController.m */; };
+		449A262A111226C800FB7DFA /* geolocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44792AB91065460A006C74F7 /* geolocation.cpp */; };
+		449A262B111226C800FB7DFA /* qctmmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448EDEDC106FBDA600051E8A /* qctmmap.cpp */; };
+		449A262C111226C800FB7DFA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4475191C108D80AC00F3510D /* Reachability.m */; };
+		449A262D111226C800FB7DFA /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3A810A0F5660029505E /* AsyncSocket.m */; };
+		449A262E111226C800FB7DFA /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3AA10A0F5660029505E /* DDData.m */; };
+		449A262F111226C800FB7DFA /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3AC10A0F5660029505E /* DDNumber.m */; };
+		449A2630111226C800FB7DFA /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3AE10A0F5660029505E /* DDRange.m */; };
+		449A2631111226C800FB7DFA /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B010A0F5660029505E /* HTTPAuthenticationRequest.m */; };
+		449A2632111226C800FB7DFA /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B210A0F5660029505E /* HTTPConnection.m */; };
+		449A2633111226C800FB7DFA /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B410A0F5660029505E /* HTTPResponse.m */; };
+		449A2634111226C800FB7DFA /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B610A0F5660029505E /* HTTPServer.m */; };
+		449A2635111226C800FB7DFA /* iPhoneHTTPServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3B810A0F5660029505E /* iPhoneHTTPServerAppDelegate.m */; };
+		449A2636111226C800FB7DFA /* localhostAddresses.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3BA10A0F5660029505E /* localhostAddresses.m */; };
+		449A2637111226C800FB7DFA /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F3BC10A0F5660029505E /* MyHTTPConnection.m */; };
+		449A2638111226C800FB7DFA /* ChartFileServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442CD07810A0FA5000268A45 /* ChartFileServerViewController.m */; };
+		449A2639111226C800FB7DFA /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6C33C10A78A89002975CC /* RegexKitLite.m */; };
+		449A263A111226C800FB7DFA /* HTTPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DD345810AA114200CCEEA1 /* HTTPServerManager.m */; };
+		449A263B111226C800FB7DFA /* HTTPServerStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DD345A10AA114200CCEEA1 /* HTTPServerStatus.m */; };
+		449A263C111226C800FB7DFA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F24F2610ADAA1F00965B6F /* SettingsViewController.m */; };
+		449A263D111226C800FB7DFA /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F24F6410ADD08700965B6F /* Settings.m */; };
+		449A263E111226C800FB7DFA /* UnitConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F24FF410ADF18100965B6F /* UnitConvertor.m */; };
+		449A263F111226C800FB7DFA /* GPXExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC2B1810AED5CD001903C5 /* GPXExporter.m */; };
+		449A2640111226C800FB7DFA /* TrackListViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4441D23B10AF32130046C95D /* TrackListViewController.mm */; };
+		449A2641111226C800FB7DFA /* GPXImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBAFE310B021E3000D0B34 /* GPXImporter.m */; };
+		449A2642111226C800FB7DFA /* TiledLayerDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44880EEF10B5D61B00FE3D44 /* TiledLayerDelegate.mm */; };
+		449A2643111226C800FB7DFA /* ChartTiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E919510B8549E00A11C46 /* ChartTiledLayer.m */; };
+		449A2644111226C800FB7DFA /* ChartScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44DFD2BF10B876A100B899DE /* ChartScrollView.mm */; };
+		449A2645111226C800FB7DFA /* ChartContentView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44AC01FD10C2CDDB005E0F99 /* ChartContentView.mm */; };
+		449A2646111226C800FB7DFA /* ItemView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4486194C10C468E40008C7ED /* ItemView.mm */; };
+		449A2647111226C800FB7DFA /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82E8510CBC34300DD63B1 /* Waypoint.m */; };
+		449A2648111226C800FB7DFA /* WaypointPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82E9010CBC5AF00DD63B1 /* WaypointPath.m */; };
+		449A2649111226C800FB7DFA /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82EA710CBC92E00DD63B1 /* Route.m */; };
+		449A264A111226C800FB7DFA /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82EAA10CBC93D00DD63B1 /* Track.m */; };
+		449A264B111226C800FB7DFA /* GPXFileViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4487C1D610F29EEC00F13F9C /* GPXFileViewerViewController.m */; };
+		449A264D111226C800FB7DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		449A264E111226C800FB7DFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		449A264F111226C800FB7DFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		449A2650111226C800FB7DFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446ABE0C0FB21B5C00FA0564 /* CoreLocation.framework */; };
+		449A2651111226C800FB7DFA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A2022510247DF5009291B1 /* QuartzCore.framework */; };
+		449A2652111226C800FB7DFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44751936108D827F00F3510D /* SystemConfiguration.framework */; };
+		449A2653111226C800FB7DFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4439F3D910A0F5B60029505E /* CFNetwork.framework */; };
+		449A2654111226C800FB7DFA /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6C35010A78BE2002975CC /* libicucore.dylib */; };
+		449A2668111226CC00FB7DFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A265D111226CC00FB7DFA /* MainWindow.xib */; };
+		449A2669111226CC00FB7DFA /* iQctViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A265E111226CC00FB7DFA /* iQctViewController.xib */; };
+		449A266A111226CC00FB7DFA /* ChartViewSetupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A265F111226CC00FB7DFA /* ChartViewSetupController.xib */; };
+		449A266B111226CC00FB7DFA /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2660111226CC00FB7DFA /* MainMenuViewController.xib */; };
+		449A266C111226CC00FB7DFA /* UnitSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2661111226CC00FB7DFA /* UnitSettingsViewController.xib */; };
+		449A266D111226CC00FB7DFA /* ChartDownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2662111226CC00FB7DFA /* ChartDownloadViewController.xib */; };
+		449A266E111226CC00FB7DFA /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2663111226CC00FB7DFA /* AboutViewController.xib */; };
+		449A266F111226CC00FB7DFA /* ChartFileServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2664111226CC00FB7DFA /* ChartFileServerViewController.xib */; };
+		449A2670111226CC00FB7DFA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2665111226CC00FB7DFA /* SettingsViewController.xib */; };
+		449A2671111226CC00FB7DFA /* TrackListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2666111226CC00FB7DFA /* TrackListViewController.xib */; };
+		449A2672111226CC00FB7DFA /* GPXFileViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449A2667111226CC00FB7DFA /* GPXFileViewerViewController.xib */; };
+		449C07AC0FC867B3005DF2D1 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449C07AB0FC867B3005DF2D1 /* MainMenuViewController.m */; };
+		44A201EC102476F1009291B1 /* ChartDownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A201EB102476F1009291B1 /* ChartDownloadViewController.xib */; };
+		44A2022610247DF5009291B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A2022510247DF5009291B1 /* QuartzCore.framework */; };
+		44AC01FE10C2CDDB005E0F99 /* ChartContentView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44AC01FD10C2CDDB005E0F99 /* ChartContentView.mm */; };
+		44B244170FA795F4002F7490 /* qcttilemgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244120FA795F4002F7490 /* qcttilemgr.cpp */; };
+		44B244180FA795F4002F7490 /* qctpalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244140FA795F4002F7490 /* qctpalette.cpp */; };
+		44B244190FA795F4002F7490 /* georef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244150FA795F4002F7490 /* georef.cpp */; };
+		44B2441A0FA795F4002F7490 /* qctmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B244160FA795F4002F7490 /* qctmap.cpp */; };
+		44B2442C0FA797EA002F7490 /* QCTView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44B2442B0FA797EA002F7490 /* QCTView.mm */; };
+		44CC2B1910AED5CD001903C5 /* GPXExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC2B1810AED5CD001903C5 /* GPXExporter.m */; };
+		44D5DA3810503ADF0096A59B /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D5DA3710503ADF0096A59B /* Entitlements.plist */; };
+		44D6C33D10A78A89002975CC /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6C33C10A78A89002975CC /* RegexKitLite.m */; };
+		44D6C35110A78BE2002975CC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6C35010A78BE2002975CC /* libicucore.dylib */; };
+		44D82E8610CBC34300DD63B1 /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82E8510CBC34300DD63B1 /* Waypoint.m */; };
+		44D82E9110CBC5AF00DD63B1 /* WaypointPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82E9010CBC5AF00DD63B1 /* WaypointPath.m */; };
+		44D82EA810CBC92E00DD63B1 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82EA710CBC92E00DD63B1 /* Route.m */; };
+		44D82EAB10CBC93D00DD63B1 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D82EAA10CBC93D00DD63B1 /* Track.m */; };
+		44DBAFE410B021E3000D0B34 /* GPXImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBAFE310B021E3000D0B34 /* GPXImporter.m */; };
+		44DD345B10AA114200CCEEA1 /* HTTPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DD345810AA114200CCEEA1 /* HTTPServerManager.m */; };
+		44DD345C10AA114200CCEEA1 /* HTTPServerStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DD345A10AA114200CCEEA1 /* HTTPServerStatus.m */; };
+		44DFD2C010B876A100B899DE /* ChartScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44DFD2BF10B876A100B899DE /* ChartScrollView.mm */; };
+		44E0181910AB537F006967F0 /* ZoomIn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 44E0181810AB537F006967F0 /* ZoomIn.tiff */; };
+		44E0181B10AB53E9006967F0 /* ZoomOut.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 44E0181A10AB53E9006967F0 /* ZoomOut.tiff */; };
+		44E0182010AB5798006967F0 /* MultiCharts.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0181F10AB5798006967F0 /* MultiCharts.png */; };
+		44E0182A10AB5918006967F0 /* MeOnChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0182910AB5918006967F0 /* MeOnChart.png */; };
+		44E0183010AB59C6006967F0 /* AddChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0182F10AB59C6006967F0 /* AddChart.png */; };
+		44E0183210AB5AC0006967F0 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E0183110AB5AC0006967F0 /* Earth.png */; };
+		44F24F1710ADA7F700965B6F /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F24F1610ADA7F700965B6F /* Settings.png */; };
+		44F24F2810ADAA1F00965B6F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F24F2610ADAA1F00965B6F /* SettingsViewController.m */; };
+		44F24F2910ADAA1F00965B6F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F24F2710ADAA1F00965B6F /* SettingsViewController.xib */; };
+		44F24F6510ADD08700965B6F /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F24F6410ADD08700965B6F /* Settings.m */; };
+		44F24FF510ADF18100965B6F /* UnitConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F24FF410ADF18100965B6F /* UnitConvertor.m */; };
+		44F2A0AE0FC86D1600F7AB63 /* ChartSetupViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44F2A0AD0FC86D1600F7AB63 /* ChartSetupViewController.mm */; };
+		44F2A0B30FC86D8B00F7AB63 /* ChartViewSetupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F2A0B20FC86D8B00F7AB63 /* ChartViewSetupController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iQctAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQctAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iQctAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQctAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* QCTViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCTViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iQctViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iQctViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iQctViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQctViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iQctViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iQctViewController.mm; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iQct_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQct_Prefix.pch; sourceTree = "<group>"; };
+		4402707E1048476C00EA7A75 /* QCTMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTMapManager.h; sourceTree = "<group>"; };
+		4402707F1048476C00EA7A75 /* QCTMapManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QCTMapManager.mm; sourceTree = "<group>"; };
+		44092CC50FD1CDAD00806270 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		4429D7FB1114F0DF00C625FB /* iQctViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iQctViewController_iPad.xib; sourceTree = "<group>"; };
+		442CD07510A0FA3600268A45 /* ChartFileServerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartFileServerViewController.xib; sourceTree = "<group>"; };
+		442CD07710A0FA5000268A45 /* ChartFileServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartFileServerViewController.h; sourceTree = "<group>"; };
+		442CD07810A0FA5000268A45 /* ChartFileServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartFileServerViewController.m; sourceTree = "<group>"; };
+		442E919410B8549E00A11C46 /* ChartTiledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTiledLayer.h; sourceTree = "<group>"; };
+		442E919510B8549E00A11C46 /* ChartTiledLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTiledLayer.m; sourceTree = "<group>"; };
+		4439F33210A0B7F10029505E /* ChartIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChartIcon.png; path = Images/ChartIcon.png; sourceTree = "<group>"; };
+		4439F3A710A0F5660029505E /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Classes/HTTPServer/AsyncSocket.h; sourceTree = "<group>"; };
+		4439F3A810A0F5660029505E /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Classes/HTTPServer/AsyncSocket.m; sourceTree = "<group>"; };
+		4439F3A910A0F5660029505E /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = Classes/HTTPServer/DDData.h; sourceTree = "<group>"; };
+		4439F3AA10A0F5660029505E /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = Classes/HTTPServer/DDData.m; sourceTree = "<group>"; };
+		4439F3AB10A0F5660029505E /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = Classes/HTTPServer/DDNumber.h; sourceTree = "<group>"; };
+		4439F3AC10A0F5660029505E /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = Classes/HTTPServer/DDNumber.m; sourceTree = "<group>"; };
+		4439F3AD10A0F5660029505E /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = Classes/HTTPServer/DDRange.h; sourceTree = "<group>"; };
+		4439F3AE10A0F5660029505E /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = Classes/HTTPServer/DDRange.m; sourceTree = "<group>"; };
+		4439F3AF10A0F5660029505E /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = Classes/HTTPServer/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		4439F3B010A0F5660029505E /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = Classes/HTTPServer/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		4439F3B110A0F5660029505E /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = Classes/HTTPServer/HTTPConnection.h; sourceTree = "<group>"; };
+		4439F3B210A0F5660029505E /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = Classes/HTTPServer/HTTPConnection.m; sourceTree = "<group>"; };
+		4439F3B310A0F5660029505E /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = Classes/HTTPServer/HTTPResponse.h; sourceTree = "<group>"; };
+		4439F3B410A0F5660029505E /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPResponse.m; path = Classes/HTTPServer/HTTPResponse.m; sourceTree = "<group>"; };
+		4439F3B510A0F5660029505E /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = Classes/HTTPServer/HTTPServer.h; sourceTree = "<group>"; };
+		4439F3B610A0F5660029505E /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = Classes/HTTPServer/HTTPServer.m; sourceTree = "<group>"; };
+		4439F3B710A0F5660029505E /* iPhoneHTTPServerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneHTTPServerAppDelegate.h; path = Classes/HTTPServer/iPhoneHTTPServerAppDelegate.h; sourceTree = "<group>"; };
+		4439F3B810A0F5660029505E /* iPhoneHTTPServerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneHTTPServerAppDelegate.m; path = Classes/HTTPServer/iPhoneHTTPServerAppDelegate.m; sourceTree = "<group>"; };
+		4439F3B910A0F5660029505E /* localhostAddresses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = localhostAddresses.h; path = Classes/HTTPServer/localhostAddresses.h; sourceTree = "<group>"; };
+		4439F3BA10A0F5660029505E /* localhostAddresses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = localhostAddresses.m; path = Classes/HTTPServer/localhostAddresses.m; sourceTree = "<group>"; };
+		4439F3BB10A0F5660029505E /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyHTTPConnection.h; path = Classes/HTTPServer/MyHTTPConnection.h; sourceTree = "<group>"; };
+		4439F3BC10A0F5660029505E /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyHTTPConnection.m; path = Classes/HTTPServer/MyHTTPConnection.m; sourceTree = "<group>"; };
+		4439F3D910A0F5B60029505E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4441D23A10AF32130046C95D /* TrackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackListViewController.h; sourceTree = "<group>"; };
+		4441D23B10AF32130046C95D /* TrackListViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TrackListViewController.mm; sourceTree = "<group>"; };
+		4441D23C10AF32130046C95D /* TrackListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrackListViewController.xib; path = Classes/TrackListViewController.xib; sourceTree = "<group>"; };
+		4441D2B410AF4B340046C95D /* Track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Track.png; path = Images/Track.png; sourceTree = "<group>"; };
+		445AA7710FCB65BD00944224 /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		446711261055A9A300117BC7 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		4467112E1055A9CF00117BC7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		4467112F1055A9CF00117BC7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		446ABE0C0FB21B5C00FA0564 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4475191B108D80AC00F3510D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4475191C108D80AC00F3510D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		44751936108D827F00F3510D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		447598E210559F4800284904 /* QCTViewer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QCTViewer-Info.plist"; sourceTree = "<group>"; };
+		44792AB81065460A006C74F7 /* geolocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geolocation.h; sourceTree = "<group>"; };
+		44792AB91065460A006C74F7 /* geolocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geolocation.cpp; sourceTree = "<group>"; };
+		447933081046EEC600F74D19 /* ChartFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartFileManager.h; sourceTree = "<group>"; };
+		447933091046EEC600F74D19 /* ChartFileManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartFileManager.mm; sourceTree = "<group>"; };
+		447A1EB70FDAA49300FD4C5B /* UnitSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UnitSettingsViewController.xib; path = Classes/UnitSettingsViewController.xib; sourceTree = "<group>"; };
+		447A1EBE0FDAA4B900FD4C5B /* UnitSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitSettingsViewController.h; sourceTree = "<group>"; };
+		447A1EBF0FDAA4B900FD4C5B /* UnitSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitSettingsViewController.m; sourceTree = "<group>"; };
+		4486194B10C468E40008C7ED /* ItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemView.h; sourceTree = "<group>"; };
+		4486194C10C468E40008C7ED /* ItemView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ItemView.mm; sourceTree = "<group>"; };
+		4487C1D510F29EEC00F13F9C /* GPXFileViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXFileViewerViewController.h; sourceTree = "<group>"; };
+		4487C1D610F29EEC00F13F9C /* GPXFileViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXFileViewerViewController.m; sourceTree = "<group>"; };
+		4487C1D710F29EEC00F13F9C /* GPXFileViewerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GPXFileViewerViewController.xib; path = Classes/GPXFileViewerViewController.xib; sourceTree = "<group>"; };
+		44880EEE10B5D61B00FE3D44 /* TiledLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledLayerDelegate.h; sourceTree = "<group>"; };
+		44880EEF10B5D61B00FE3D44 /* TiledLayerDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TiledLayerDelegate.mm; sourceTree = "<group>"; };
+		448E60BB10A8C9D100F9D606 /* SmallAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SmallAppIcon.png; path = Images/SmallAppIcon.png; sourceTree = "<group>"; };
+		448EDEDC106FBDA600051E8A /* qctmmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qctmmap.cpp; path = QCT/qctmmap.cpp; sourceTree = "<group>"; };
+		448EDEDD106FBDA600051E8A /* qctmmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qctmmap.h; path = QCT/qctmmap.h; sourceTree = "<group>"; };
+		449A265A111226C800FB7DFA /* QCTViewer-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QCTViewer-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A265D111226CC00FB7DFA /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
+		449A265E111226CC00FB7DFA /* iQctViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iQctViewController.xib; path = "Resources-iPad/iQctViewController.xib"; sourceTree = "<group>"; };
+		449A265F111226CC00FB7DFA /* ChartViewSetupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChartViewSetupController.xib; path = "Resources-iPad/ChartViewSetupController.xib"; sourceTree = "<group>"; };
+		449A2660111226CC00FB7DFA /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenuViewController.xib; path = "Resources-iPad/MainMenuViewController.xib"; sourceTree = "<group>"; };
+		449A2661111226CC00FB7DFA /* UnitSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UnitSettingsViewController.xib; path = "Resources-iPad/Classes/UnitSettingsViewController.xib"; sourceTree = "<group>"; };
+		449A2662111226CC00FB7DFA /* ChartDownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChartDownloadViewController.xib; path = "Resources-iPad/ChartDownloadViewController.xib"; sourceTree = "<group>"; };
+		449A2663111226CC00FB7DFA /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = "Resources-iPad/AboutViewController.xib"; sourceTree = "<group>"; };
+		449A2664111226CC00FB7DFA /* ChartFileServerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChartFileServerViewController.xib; path = "Resources-iPad/ChartFileServerViewController.xib"; sourceTree = "<group>"; };
+		449A2665111226CC00FB7DFA /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = "Resources-iPad/Classes/SettingsViewController.xib"; sourceTree = "<group>"; };
+		449A2666111226CC00FB7DFA /* TrackListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrackListViewController.xib; path = "Resources-iPad/Classes/TrackListViewController.xib"; sourceTree = "<group>"; };
+		449A2667111226CC00FB7DFA /* GPXFileViewerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GPXFileViewerViewController.xib; path = "Resources-iPad/Classes/GPXFileViewerViewController.xib"; sourceTree = "<group>"; };
+		449C07AA0FC867B3005DF2D1 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		449C07AB0FC867B3005DF2D1 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		44A201EB102476F1009291B1 /* ChartDownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartDownloadViewController.xib; sourceTree = "<group>"; };
+		44A2022510247DF5009291B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44AC01FC10C2CDDB005E0F99 /* ChartContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartContentView.h; sourceTree = "<group>"; };
+		44AC01FD10C2CDDB005E0F99 /* ChartContentView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartContentView.mm; sourceTree = "<group>"; };
+		44B2440E0FA795F4002F7490 /* qctmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qctmap.h; path = QCT/qctmap.h; sourceTree = "<group>"; };
+		44B2440F0FA795F4002F7490 /* qctdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qctdata.h; path = QCT/qctdata.h; sourceTree = "<group>"; };
+		44B244100FA795F4002F7490 /* georef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = georef.h; path = QCT/georef.h; sourceTree = "<group>"; };
+		44B244110FA795F4002F7490 /* qcttilemgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qcttilemgr.h; path = QCT/qcttilemgr.h; sourceTree = "<group>"; };
+		44B244120FA795F4002F7490 /* qcttilemgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qcttilemgr.cpp; path = QCT/qcttilemgr.cpp; sourceTree = "<group>"; };
+		44B244130FA795F4002F7490 /* qctpalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qctpalette.h; path = QCT/qctpalette.h; sourceTree = "<group>"; };
+		44B244140FA795F4002F7490 /* qctpalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qctpalette.cpp; path = QCT/qctpalette.cpp; sourceTree = "<group>"; };
+		44B244150FA795F4002F7490 /* georef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = georef.cpp; path = QCT/georef.cpp; sourceTree = "<group>"; };
+		44B244160FA795F4002F7490 /* qctmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qctmap.cpp; path = QCT/qctmap.cpp; sourceTree = "<group>"; };
+		44B2442A0FA797EA002F7490 /* QCTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTView.h; sourceTree = "<group>"; };
+		44B2442B0FA797EA002F7490 /* QCTView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QCTView.mm; sourceTree = "<group>"; };
+		44C8AC47102F286A002910D4 /* ActionDone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDone.h; sourceTree = "<group>"; };
+		44CC2B1710AED5CD001903C5 /* GPXExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXExporter.h; sourceTree = "<group>"; };
+		44CC2B1810AED5CD001903C5 /* GPXExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXExporter.m; sourceTree = "<group>"; };
+		44D5DA3710503ADF0096A59B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		44D6C33B10A78A89002975CC /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		44D6C33C10A78A89002975CC /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		44D6C35010A78BE2002975CC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		44D82E8410CBC34300DD63B1 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoint.h; sourceTree = "<group>"; };
+		44D82E8510CBC34300DD63B1 /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoint.m; sourceTree = "<group>"; };
+		44D82E8F10CBC5AF00DD63B1 /* WaypointPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaypointPath.h; sourceTree = "<group>"; };
+		44D82E9010CBC5AF00DD63B1 /* WaypointPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaypointPath.m; sourceTree = "<group>"; };
+		44D82EA610CBC92E00DD63B1 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		44D82EA710CBC92E00DD63B1 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		44D82EA910CBC93D00DD63B1 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		44D82EAA10CBC93D00DD63B1 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		44DBAFE210B021E3000D0B34 /* GPXImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXImporter.h; sourceTree = "<group>"; };
+		44DBAFE310B021E3000D0B34 /* GPXImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXImporter.m; sourceTree = "<group>"; };
+		44DD345710AA114200CCEEA1 /* HTTPServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServerManager.h; path = Classes/HTTPServer/HTTPServerManager.h; sourceTree = "<group>"; };
+		44DD345810AA114200CCEEA1 /* HTTPServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServerManager.m; path = Classes/HTTPServer/HTTPServerManager.m; sourceTree = "<group>"; };
+		44DD345910AA114200CCEEA1 /* HTTPServerStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServerStatus.h; path = Classes/HTTPServer/HTTPServerStatus.h; sourceTree = "<group>"; };
+		44DD345A10AA114200CCEEA1 /* HTTPServerStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServerStatus.m; path = Classes/HTTPServer/HTTPServerStatus.m; sourceTree = "<group>"; };
+		44DFD2BE10B876A100B899DE /* ChartScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartScrollView.h; sourceTree = "<group>"; };
+		44DFD2BF10B876A100B899DE /* ChartScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartScrollView.mm; sourceTree = "<group>"; };
+		44E0181810AB537F006967F0 /* ZoomIn.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = ZoomIn.tiff; path = Images/ZoomIn.tiff; sourceTree = "<group>"; };
+		44E0181A10AB53E9006967F0 /* ZoomOut.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = ZoomOut.tiff; path = Images/ZoomOut.tiff; sourceTree = "<group>"; };
+		44E0181F10AB5798006967F0 /* MultiCharts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MultiCharts.png; path = Images/MultiCharts.png; sourceTree = "<group>"; };
+		44E0182910AB5918006967F0 /* MeOnChart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MeOnChart.png; path = Images/MeOnChart.png; sourceTree = "<group>"; };
+		44E0182F10AB59C6006967F0 /* AddChart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddChart.png; path = Images/AddChart.png; sourceTree = "<group>"; };
+		44E0183110AB5AC0006967F0 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Earth.png; path = Images/Earth.png; sourceTree = "<group>"; };
+		44F24F1610ADA7F700965B6F /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Images/Settings.png; sourceTree = "<group>"; };
+		44F24F2510ADAA1F00965B6F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		44F24F2610ADAA1F00965B6F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		44F24F2710ADAA1F00965B6F /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		44F24F6310ADD08700965B6F /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		44F24F6410ADD08700965B6F /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		44F24FF310ADF18100965B6F /* UnitConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitConvertor.h; sourceTree = "<group>"; };
+		44F24FF410ADF18100965B6F /* UnitConvertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitConvertor.m; sourceTree = "<group>"; };
+		44F2A0AC0FC86D1600F7AB63 /* ChartSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartSetupViewController.h; sourceTree = "<group>"; };
+		44F2A0AD0FC86D1600F7AB63 /* ChartSetupViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartSetupViewController.mm; sourceTree = "<group>"; };
+		44F2A0B20FC86D8B00F7AB63 /* ChartViewSetupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartViewSetupController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				446ABE0D0FB21B5C00FA0564 /* CoreLocation.framework in Frameworks */,
+				44A2022610247DF5009291B1 /* QuartzCore.framework in Frameworks */,
+				44751937108D827F00F3510D /* SystemConfiguration.framework in Frameworks */,
+				4439F3DA10A0F5B60029505E /* CFNetwork.framework in Frameworks */,
+				44D6C35110A78BE2002975CC /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A264C111226C800FB7DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A264D111226C800FB7DFA /* Foundation.framework in Frameworks */,
+				449A264E111226C800FB7DFA /* UIKit.framework in Frameworks */,
+				449A264F111226C800FB7DFA /* CoreGraphics.framework in Frameworks */,
+				449A2650111226C800FB7DFA /* CoreLocation.framework in Frameworks */,
+				449A2651111226C800FB7DFA /* QuartzCore.framework in Frameworks */,
+				449A2652111226C800FB7DFA /* SystemConfiguration.framework in Frameworks */,
+				449A2653111226C800FB7DFA /* CFNetwork.framework in Frameworks */,
+				449A2654111226C800FB7DFA /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44D82E8310CBC2EC00DD63B1 /* RoutesAndTracks */,
+				44CC55F910B1E74000171667 /* GPX */,
+				4439F3A510A0F55B0029505E /* HTTPServer */,
+				44F24F0210ADA4B300965B6F /* Utility */,
+				44F2A0B10FC86D6400F7AB63 /* App */,
+				44F2A0B00FC86D3B00F7AB63 /* ChartView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* QCTViewer.app */,
+				449A265A111226C800FB7DFA /* QCTViewer-iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				44B243E30FA795E1002F7490 /* QCT */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				449A265C111226C800FB7DFA /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iQct_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				445AA7710FCB65BD00944224 /* MainMenuViewController.xib */,
+				446711261055A9A300117BC7 /* AboutViewController.xib */,
+				44F2A0B20FC86D8B00F7AB63 /* ChartViewSetupController.xib */,
+				2899E5210DE3E06400AC0155 /* iQctViewController.xib */,
+				4429D7FB1114F0DF00C625FB /* iQctViewController_iPad.xib */,
+				44A201EB102476F1009291B1 /* ChartDownloadViewController.xib */,
+				442CD07510A0FA3600268A45 /* ChartFileServerViewController.xib */,
+				44F24F2710ADAA1F00965B6F /* SettingsViewController.xib */,
+				447A1EB70FDAA49300FD4C5B /* UnitSettingsViewController.xib */,
+				4441D23C10AF32130046C95D /* TrackListViewController.xib */,
+				4487C1D710F29EEC00F13F9C /* GPXFileViewerViewController.xib */,
+				447598E210559F4800284904 /* QCTViewer-Info.plist */,
+				44D5DA3710503ADF0096A59B /* Entitlements.plist */,
+				44092CC50FD1CDAD00806270 /* AppIcon.png */,
+				4439F33210A0B7F10029505E /* ChartIcon.png */,
+				44E0181810AB537F006967F0 /* ZoomIn.tiff */,
+				44E0181A10AB53E9006967F0 /* ZoomOut.tiff */,
+				448E60BB10A8C9D100F9D606 /* SmallAppIcon.png */,
+				44E0181F10AB5798006967F0 /* MultiCharts.png */,
+				44E0182910AB5918006967F0 /* MeOnChart.png */,
+				44E0182F10AB59C6006967F0 /* AddChart.png */,
+				44E0183110AB5AC0006967F0 /* Earth.png */,
+				44F24F1610ADA7F700965B6F /* Settings.png */,
+				4441D2B410AF4B340046C95D /* Track.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D6C35010A78BE2002975CC /* libicucore.dylib */,
+				4439F3D910A0F5B60029505E /* CFNetwork.framework */,
+				44751936108D827F00F3510D /* SystemConfiguration.framework */,
+				44A2022510247DF5009291B1 /* QuartzCore.framework */,
+				446ABE0C0FB21B5C00FA0564 /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4439F3A510A0F55B0029505E /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				4439F3A710A0F5660029505E /* AsyncSocket.h */,
+				4439F3A810A0F5660029505E /* AsyncSocket.m */,
+				4439F3A910A0F5660029505E /* DDData.h */,
+				4439F3AA10A0F5660029505E /* DDData.m */,
+				4439F3AB10A0F5660029505E /* DDNumber.h */,
+				4439F3AC10A0F5660029505E /* DDNumber.m */,
+				4439F3AD10A0F5660029505E /* DDRange.h */,
+				4439F3AE10A0F5660029505E /* DDRange.m */,
+				4439F3AF10A0F5660029505E /* HTTPAuthenticationRequest.h */,
+				4439F3B010A0F5660029505E /* HTTPAuthenticationRequest.m */,
+				4439F3B110A0F5660029505E /* HTTPConnection.h */,
+				4439F3B210A0F5660029505E /* HTTPConnection.m */,
+				4439F3B310A0F5660029505E /* HTTPResponse.h */,
+				4439F3B410A0F5660029505E /* HTTPResponse.m */,
+				4439F3B510A0F5660029505E /* HTTPServer.h */,
+				4439F3B610A0F5660029505E /* HTTPServer.m */,
+				4439F3B910A0F5660029505E /* localhostAddresses.h */,
+				4439F3BA10A0F5660029505E /* localhostAddresses.m */,
+				4439F3BB10A0F5660029505E /* MyHTTPConnection.h */,
+				4439F3BC10A0F5660029505E /* MyHTTPConnection.m */,
+				4439F3B710A0F5660029505E /* iPhoneHTTPServerAppDelegate.h */,
+				4439F3B810A0F5660029505E /* iPhoneHTTPServerAppDelegate.m */,
+				44DD345710AA114200CCEEA1 /* HTTPServerManager.h */,
+				44DD345810AA114200CCEEA1 /* HTTPServerManager.m */,
+				44DD345910AA114200CCEEA1 /* HTTPServerStatus.h */,
+				44DD345A10AA114200CCEEA1 /* HTTPServerStatus.m */,
+			);
+			name = HTTPServer;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		449A265C111226C800FB7DFA /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				449A265D111226CC00FB7DFA /* MainWindow.xib */,
+				449A265E111226CC00FB7DFA /* iQctViewController.xib */,
+				449A265F111226CC00FB7DFA /* ChartViewSetupController.xib */,
+				449A2660111226CC00FB7DFA /* MainMenuViewController.xib */,
+				449A2661111226CC00FB7DFA /* UnitSettingsViewController.xib */,
+				449A2662111226CC00FB7DFA /* ChartDownloadViewController.xib */,
+				449A2663111226CC00FB7DFA /* AboutViewController.xib */,
+				449A2664111226CC00FB7DFA /* ChartFileServerViewController.xib */,
+				449A2665111226CC00FB7DFA /* SettingsViewController.xib */,
+				449A2666111226CC00FB7DFA /* TrackListViewController.xib */,
+				449A2667111226CC00FB7DFA /* GPXFileViewerViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		44B243E30FA795E1002F7490 /* QCT */ = {
+			isa = PBXGroup;
+			children = (
+				448EDEDC106FBDA600051E8A /* qctmmap.cpp */,
+				448EDEDD106FBDA600051E8A /* qctmmap.h */,
+				44B244100FA795F4002F7490 /* georef.h */,
+				44B244150FA795F4002F7490 /* georef.cpp */,
+				44B2440E0FA795F4002F7490 /* qctmap.h */,
+				44B244160FA795F4002F7490 /* qctmap.cpp */,
+				44B2440F0FA795F4002F7490 /* qctdata.h */,
+				44B244110FA795F4002F7490 /* qcttilemgr.h */,
+				44B244120FA795F4002F7490 /* qcttilemgr.cpp */,
+				44B244130FA795F4002F7490 /* qctpalette.h */,
+				44B244140FA795F4002F7490 /* qctpalette.cpp */,
+			);
+			name = QCT;
+			sourceTree = "<group>";
+		};
+		44CC55F910B1E74000171667 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				44CC2B1710AED5CD001903C5 /* GPXExporter.h */,
+				44CC2B1810AED5CD001903C5 /* GPXExporter.m */,
+				44DBAFE210B021E3000D0B34 /* GPXImporter.h */,
+				44DBAFE310B021E3000D0B34 /* GPXImporter.m */,
+			);
+			name = GPX;
+			sourceTree = "<group>";
+		};
+		44D82E8310CBC2EC00DD63B1 /* RoutesAndTracks */ = {
+			isa = PBXGroup;
+			children = (
+				44D82E8410CBC34300DD63B1 /* Waypoint.h */,
+				44D82E8510CBC34300DD63B1 /* Waypoint.m */,
+				44D82E8F10CBC5AF00DD63B1 /* WaypointPath.h */,
+				44D82E9010CBC5AF00DD63B1 /* WaypointPath.m */,
+				44D82EA610CBC92E00DD63B1 /* Route.h */,
+				44D82EA710CBC92E00DD63B1 /* Route.m */,
+				44D82EA910CBC93D00DD63B1 /* Track.h */,
+				44D82EAA10CBC93D00DD63B1 /* Track.m */,
+			);
+			name = RoutesAndTracks;
+			sourceTree = "<group>";
+		};
+		44F24F0210ADA4B300965B6F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				44D6C33B10A78A89002975CC /* RegexKitLite.h */,
+				44D6C33C10A78A89002975CC /* RegexKitLite.m */,
+				4475191B108D80AC00F3510D /* Reachability.h */,
+				4475191C108D80AC00F3510D /* Reachability.m */,
+				44F24FF310ADF18100965B6F /* UnitConvertor.h */,
+				44F24FF410ADF18100965B6F /* UnitConvertor.m */,
+				447933081046EEC600F74D19 /* ChartFileManager.h */,
+				447933091046EEC600F74D19 /* ChartFileManager.mm */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		44F24FF210ADF10700965B6F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				44F24F6310ADD08700965B6F /* Settings.h */,
+				44F24F6410ADD08700965B6F /* Settings.m */,
+				44F24F2510ADAA1F00965B6F /* SettingsViewController.h */,
+				44F24F2610ADAA1F00965B6F /* SettingsViewController.m */,
+				447A1EBE0FDAA4B900FD4C5B /* UnitSettingsViewController.h */,
+				447A1EBF0FDAA4B900FD4C5B /* UnitSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		44F2A0B00FC86D3B00F7AB63 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* iQctViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iQctViewController.mm */,
+				4402707E1048476C00EA7A75 /* QCTMapManager.h */,
+				4402707F1048476C00EA7A75 /* QCTMapManager.mm */,
+				44B2442A0FA797EA002F7490 /* QCTView.h */,
+				44B2442B0FA797EA002F7490 /* QCTView.mm */,
+				44DFD2BE10B876A100B899DE /* ChartScrollView.h */,
+				44DFD2BF10B876A100B899DE /* ChartScrollView.mm */,
+				44AC01FC10C2CDDB005E0F99 /* ChartContentView.h */,
+				44AC01FD10C2CDDB005E0F99 /* ChartContentView.mm */,
+				442E919410B8549E00A11C46 /* ChartTiledLayer.h */,
+				442E919510B8549E00A11C46 /* ChartTiledLayer.m */,
+				44880EEE10B5D61B00FE3D44 /* TiledLayerDelegate.h */,
+				44880EEF10B5D61B00FE3D44 /* TiledLayerDelegate.mm */,
+				4486194B10C468E40008C7ED /* ItemView.h */,
+				4486194C10C468E40008C7ED /* ItemView.mm */,
+				44C8AC47102F286A002910D4 /* ActionDone.h */,
+				44792AB81065460A006C74F7 /* geolocation.h */,
+				44792AB91065460A006C74F7 /* geolocation.cpp */,
+			);
+			name = ChartView;
+			sourceTree = "<group>";
+		};
+		44F2A0B10FC86D6400F7AB63 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				44F24FF210ADF10700965B6F /* Settings */,
+				1D3623240D0F684500981E51 /* iQctAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iQctAppDelegate.m */,
+				449C07AA0FC867B3005DF2D1 /* MainMenuViewController.h */,
+				449C07AB0FC867B3005DF2D1 /* MainMenuViewController.m */,
+				44F2A0AC0FC86D1600F7AB63 /* ChartSetupViewController.h */,
+				44F2A0AD0FC86D1600F7AB63 /* ChartSetupViewController.mm */,
+				442CD07710A0FA5000268A45 /* ChartFileServerViewController.h */,
+				442CD07810A0FA5000268A45 /* ChartFileServerViewController.m */,
+				4467112E1055A9CF00117BC7 /* AboutViewController.h */,
+				4467112F1055A9CF00117BC7 /* AboutViewController.m */,
+				4441D23A10AF32130046C95D /* TrackListViewController.h */,
+				4441D23B10AF32130046C95D /* TrackListViewController.mm */,
+				4487C1D510F29EEC00F13F9C /* GPXFileViewerViewController.h */,
+				4487C1D610F29EEC00F13F9C /* GPXFileViewerViewController.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* QCTViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "QCTViewer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCTViewer;
+			productName = iQct;
+			productReference = 1D6058910D05DD3D006BFB54 /* QCTViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		449A2601111226C800FB7DFA /* QCTViewer-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A2655111226C800FB7DFA /* Build configuration list for PBXNativeTarget "QCTViewer-iPad" */;
+			buildPhases = (
+				449A2602111226C800FB7DFA /* Resources */,
+				449A261B111226C800FB7DFA /* Sources */,
+				449A264C111226C800FB7DFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QCTViewer-iPad";
+			productName = iQct;
+			productReference = 449A265A111226C800FB7DFA /* QCTViewer-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iQct" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* QCTViewer */,
+				449A2601111226C800FB7DFA /* QCTViewer-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iQctViewController.xib in Resources */,
+				44F2A0B30FC86D8B00F7AB63 /* ChartViewSetupController.xib in Resources */,
+				445AA7720FCB65BD00944224 /* MainMenuViewController.xib in Resources */,
+				44092CC60FD1CDAD00806270 /* AppIcon.png in Resources */,
+				447A1EB80FDAA49300FD4C5B /* UnitSettingsViewController.xib in Resources */,
+				44A201EC102476F1009291B1 /* ChartDownloadViewController.xib in Resources */,
+				44D5DA3810503ADF0096A59B /* Entitlements.plist in Resources */,
+				447598E310559F4800284904 /* QCTViewer-Info.plist in Resources */,
+				446711271055A9A300117BC7 /* AboutViewController.xib in Resources */,
+				4439F33510A0B7F10029505E /* ChartIcon.png in Resources */,
+				442CD07610A0FA3600268A45 /* ChartFileServerViewController.xib in Resources */,
+				448E60BC10A8C9D100F9D606 /* SmallAppIcon.png in Resources */,
+				44E0181910AB537F006967F0 /* ZoomIn.tiff in Resources */,
+				44E0181B10AB53E9006967F0 /* ZoomOut.tiff in Resources */,
+				44E0182010AB5798006967F0 /* MultiCharts.png in Resources */,
+				44E0182A10AB5918006967F0 /* MeOnChart.png in Resources */,
+				44E0183010AB59C6006967F0 /* AddChart.png in Resources */,
+				44E0183210AB5AC0006967F0 /* Earth.png in Resources */,
+				44F24F1710ADA7F700965B6F /* Settings.png in Resources */,
+				44F24F2910ADAA1F00965B6F /* SettingsViewController.xib in Resources */,
+				4441D23E10AF32130046C95D /* TrackListViewController.xib in Resources */,
+				4441D2B510AF4B340046C95D /* Track.png in Resources */,
+				4487C1D910F29EEC00F13F9C /* GPXFileViewerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A2602111226C800FB7DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A2607111226C800FB7DFA /* AppIcon.png in Resources */,
+				449A260A111226C800FB7DFA /* Entitlements.plist in Resources */,
+				449A260B111226C800FB7DFA /* QCTViewer-Info.plist in Resources */,
+				449A260D111226C800FB7DFA /* ChartIcon.png in Resources */,
+				449A260F111226C800FB7DFA /* SmallAppIcon.png in Resources */,
+				449A2610111226C800FB7DFA /* ZoomIn.tiff in Resources */,
+				449A2611111226C800FB7DFA /* ZoomOut.tiff in Resources */,
+				449A2612111226C800FB7DFA /* MultiCharts.png in Resources */,
+				449A2613111226C800FB7DFA /* MeOnChart.png in Resources */,
+				449A2614111226C800FB7DFA /* AddChart.png in Resources */,
+				449A2615111226C800FB7DFA /* Earth.png in Resources */,
+				449A2616111226C800FB7DFA /* Settings.png in Resources */,
+				449A2619111226C800FB7DFA /* Track.png in Resources */,
+				449A2668111226CC00FB7DFA /* MainWindow.xib in Resources */,
+				449A2669111226CC00FB7DFA /* iQctViewController.xib in Resources */,
+				449A266A111226CC00FB7DFA /* ChartViewSetupController.xib in Resources */,
+				449A266B111226CC00FB7DFA /* MainMenuViewController.xib in Resources */,
+				449A266C111226CC00FB7DFA /* UnitSettingsViewController.xib in Resources */,
+				449A266D111226CC00FB7DFA /* ChartDownloadViewController.xib in Resources */,
+				449A266E111226CC00FB7DFA /* AboutViewController.xib in Resources */,
+				449A266F111226CC00FB7DFA /* ChartFileServerViewController.xib in Resources */,
+				449A2670111226CC00FB7DFA /* SettingsViewController.xib in Resources */,
+				449A2671111226CC00FB7DFA /* TrackListViewController.xib in Resources */,
+				449A2672111226CC00FB7DFA /* GPXFileViewerViewController.xib in Resources */,
+				4429D7FC1114F0DF00C625FB /* iQctViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iQctAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iQctViewController.mm in Sources */,
+				44B244170FA795F4002F7490 /* qcttilemgr.cpp in Sources */,
+				44B244180FA795F4002F7490 /* qctpalette.cpp in Sources */,
+				44B244190FA795F4002F7490 /* georef.cpp in Sources */,
+				44B2441A0FA795F4002F7490 /* qctmap.cpp in Sources */,
+				44B2442C0FA797EA002F7490 /* QCTView.mm in Sources */,
+				449C07AC0FC867B3005DF2D1 /* MainMenuViewController.m in Sources */,
+				44F2A0AE0FC86D1600F7AB63 /* ChartSetupViewController.mm in Sources */,
+				447A1EC00FDAA4B900FD4C5B /* UnitSettingsViewController.m in Sources */,
+				4479330A1046EEC600F74D19 /* ChartFileManager.mm in Sources */,
+				440270801048476C00EA7A75 /* QCTMapManager.mm in Sources */,
+				446711301055A9CF00117BC7 /* AboutViewController.m in Sources */,
+				44792ABA1065460A006C74F7 /* geolocation.cpp in Sources */,
+				448EDEDE106FBDA600051E8A /* qctmmap.cpp in Sources */,
+				4475191D108D80AC00F3510D /* Reachability.m in Sources */,
+				4439F3BD10A0F5660029505E /* AsyncSocket.m in Sources */,
+				4439F3BE10A0F5660029505E /* DDData.m in Sources */,
+				4439F3BF10A0F5660029505E /* DDNumber.m in Sources */,
+				4439F3C010A0F5660029505E /* DDRange.m in Sources */,
+				4439F3C110A0F5660029505E /* HTTPAuthenticationRequest.m in Sources */,
+				4439F3C210A0F5660029505E /* HTTPConnection.m in Sources */,
+				4439F3C310A0F5660029505E /* HTTPResponse.m in Sources */,
+				4439F3C410A0F5660029505E /* HTTPServer.m in Sources */,
+				4439F3C510A0F5660029505E /* iPhoneHTTPServerAppDelegate.m in Sources */,
+				4439F3C610A0F5660029505E /* localhostAddresses.m in Sources */,
+				4439F3C710A0F5660029505E /* MyHTTPConnection.m in Sources */,
+				442CD07910A0FA5000268A45 /* ChartFileServerViewController.m in Sources */,
+				44D6C33D10A78A89002975CC /* RegexKitLite.m in Sources */,
+				44DD345B10AA114200CCEEA1 /* HTTPServerManager.m in Sources */,
+				44DD345C10AA114200CCEEA1 /* HTTPServerStatus.m in Sources */,
+				44F24F2810ADAA1F00965B6F /* SettingsViewController.m in Sources */,
+				44F24F6510ADD08700965B6F /* Settings.m in Sources */,
+				44F24FF510ADF18100965B6F /* UnitConvertor.m in Sources */,
+				44CC2B1910AED5CD001903C5 /* GPXExporter.m in Sources */,
+				4441D23D10AF32130046C95D /* TrackListViewController.mm in Sources */,
+				44DBAFE410B021E3000D0B34 /* GPXImporter.m in Sources */,
+				44880EF010B5D61B00FE3D44 /* TiledLayerDelegate.mm in Sources */,
+				442E919610B8549E00A11C46 /* ChartTiledLayer.m in Sources */,
+				44DFD2C010B876A100B899DE /* ChartScrollView.mm in Sources */,
+				44AC01FE10C2CDDB005E0F99 /* ChartContentView.mm in Sources */,
+				4486194D10C468E40008C7ED /* ItemView.mm in Sources */,
+				44D82E8610CBC34300DD63B1 /* Waypoint.m in Sources */,
+				44D82E9110CBC5AF00DD63B1 /* WaypointPath.m in Sources */,
+				44D82EA810CBC92E00DD63B1 /* Route.m in Sources */,
+				44D82EAB10CBC93D00DD63B1 /* Track.m in Sources */,
+				4487C1D810F29EEC00F13F9C /* GPXFileViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A261B111226C800FB7DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A261C111226C800FB7DFA /* main.m in Sources */,
+				449A261D111226C800FB7DFA /* iQctAppDelegate.m in Sources */,
+				449A261E111226C800FB7DFA /* iQctViewController.mm in Sources */,
+				449A261F111226C800FB7DFA /* qcttilemgr.cpp in Sources */,
+				449A2620111226C800FB7DFA /* qctpalette.cpp in Sources */,
+				449A2621111226C800FB7DFA /* georef.cpp in Sources */,
+				449A2622111226C800FB7DFA /* qctmap.cpp in Sources */,
+				449A2623111226C800FB7DFA /* QCTView.mm in Sources */,
+				449A2624111226C800FB7DFA /* MainMenuViewController.m in Sources */,
+				449A2625111226C800FB7DFA /* ChartSetupViewController.mm in Sources */,
+				449A2626111226C800FB7DFA /* UnitSettingsViewController.m in Sources */,
+				449A2627111226C800FB7DFA /* ChartFileManager.mm in Sources */,
+				449A2628111226C800FB7DFA /* QCTMapManager.mm in Sources */,
+				449A2629111226C800FB7DFA /* AboutViewController.m in Sources */,
+				449A262A111226C800FB7DFA /* geolocation.cpp in Sources */,
+				449A262B111226C800FB7DFA /* qctmmap.cpp in Sources */,
+				449A262C111226C800FB7DFA /* Reachability.m in Sources */,
+				449A262D111226C800FB7DFA /* AsyncSocket.m in Sources */,
+				449A262E111226C800FB7DFA /* DDData.m in Sources */,
+				449A262F111226C800FB7DFA /* DDNumber.m in Sources */,
+				449A2630111226C800FB7DFA /* DDRange.m in Sources */,
+				449A2631111226C800FB7DFA /* HTTPAuthenticationRequest.m in Sources */,
+				449A2632111226C800FB7DFA /* HTTPConnection.m in Sources */,
+				449A2633111226C800FB7DFA /* HTTPResponse.m in Sources */,
+				449A2634111226C800FB7DFA /* HTTPServer.m in Sources */,
+				449A2635111226C800FB7DFA /* iPhoneHTTPServerAppDelegate.m in Sources */,
+				449A2636111226C800FB7DFA /* localhostAddresses.m in Sources */,
+				449A2637111226C800FB7DFA /* MyHTTPConnection.m in Sources */,
+				449A2638111226C800FB7DFA /* ChartFileServerViewController.m in Sources */,
+				449A2639111226C800FB7DFA /* RegexKitLite.m in Sources */,
+				449A263A111226C800FB7DFA /* HTTPServerManager.m in Sources */,
+				449A263B111226C800FB7DFA /* HTTPServerStatus.m in Sources */,
+				449A263C111226C800FB7DFA /* SettingsViewController.m in Sources */,
+				449A263D111226C800FB7DFA /* Settings.m in Sources */,
+				449A263E111226C800FB7DFA /* UnitConvertor.m in Sources */,
+				449A263F111226C800FB7DFA /* GPXExporter.m in Sources */,
+				449A2640111226C800FB7DFA /* TrackListViewController.mm in Sources */,
+				449A2641111226C800FB7DFA /* GPXImporter.m in Sources */,
+				449A2642111226C800FB7DFA /* TiledLayerDelegate.mm in Sources */,
+				449A2643111226C800FB7DFA /* ChartTiledLayer.m in Sources */,
+				449A2644111226C800FB7DFA /* ChartScrollView.mm in Sources */,
+				449A2645111226C800FB7DFA /* ChartContentView.mm in Sources */,
+				449A2646111226C800FB7DFA /* ItemView.mm in Sources */,
+				449A2647111226C800FB7DFA /* Waypoint.m in Sources */,
+				449A2648111226C800FB7DFA /* WaypointPath.m in Sources */,
+				449A2649111226C800FB7DFA /* Route.m in Sources */,
+				449A264A111226C800FB7DFA /* Track.m in Sources */,
+				449A264B111226C800FB7DFA /* GPXFileViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PRODUCT_NAME = QCTViewer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				PRODUCT_NAME = QCTViewer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		449A2656111226C800FB7DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PRODUCT_NAME = "QCTViewer-iPad";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		449A2657111226C800FB7DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Craig Miller (34P4Z467DR)";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				PRODUCT_NAME = "QCTViewer-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9FF42636-E130-4A91-8927-80F1126F8C4F";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		449A2658111226C800FB7DFA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Miller";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				PRODUCT_NAME = "QCTViewer-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CDE6D5D-D9ED-410A-A824-C89CE42F03B5";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Distribution;
+		};
+		449A2659111226C800FB7DFA /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Miller";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				PRODUCT_NAME = "QCTViewer-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CDE6D5D-D9ED-410A-A824-C89CE42F03B5";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = AppStore;
+		};
+		44D4B2FB107A8E3400529A49 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Craig Miller";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5983A89-9B93-418A-B96F-C39E964C6A63";
+				SDKROOT = iphoneos4.0;
+			};
+			name = AppStore;
+		};
+		44D4B2FC107A8E3400529A49 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Miller";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				PRODUCT_NAME = QCTViewer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CDE6D5D-D9ED-410A-A824-C89CE42F03B5";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+		44D5DA2B10503A420096A59B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Distribution;
+		};
+		44D5DA2C10503A420096A59B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Craig Miller (34P4Z467DR)";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQct_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "QCTViewer-Info.plist";
+				PRODUCT_NAME = QCTViewer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EEBC47D0-7242-4121-947F-3520CBF6DC1A";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Craig Miller";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5983A89-9B93-418A-B96F-C39E964C6A63";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Craig Miller";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5983A89-9B93-418A-B96F-C39E964C6A63";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "QCTViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				44D5DA2C10503A420096A59B /* Distribution */,
+				44D4B2FC107A8E3400529A49 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A2655111226C800FB7DFA /* Build configuration list for PBXNativeTarget "QCTViewer-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A2656111226C800FB7DFA /* Debug */,
+				449A2657111226C800FB7DFA /* Release */,
+				449A2658111226C800FB7DFA /* Distribution */,
+				449A2659111226C800FB7DFA /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iQct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				44D5DA2B10503A420096A59B /* Distribution */,
+				44D4B2FB107A8E3400529A49 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
